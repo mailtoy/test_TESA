@@ -36,7 +36,7 @@ function reply(reply_token) {
         headers: headers,
         body: body
     }, (err, res, body) => {
-        console.log('status = ' + res.statusCode);
+        console.log('status = ' + err);
     });
 }
 
