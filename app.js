@@ -34,7 +34,7 @@ function reply(reply_token, msg) {
     })
 
     if( msg === "Hi"){
-        body = : JSON.stringify({
+        body =  JSON.stringify({
         replyToken: reply_token,
 
         messages: [{
